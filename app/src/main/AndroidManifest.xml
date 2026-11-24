@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Event_Handling">
+        <activity
+            android:name=".SqliteQuiz.EditStudentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteQuiz.StudentListActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".SharedPreferences.MyActivityForm"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".AssignmentRecyceler.DetielsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AssignmentRecyceler.MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".RecycelerViewWithDatabase.EditStudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecycelerViewWithDatabase.StudentListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sqliteDatabasePart3.showContentActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".sqliteDatabasePart3.contentActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Sqlite_Database_part1.contentViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewPart3.editActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewPart3.activityMarket"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".RecyclerViewPart2.teacherEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewPart2.TeacherActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecyclerView.StudentViewActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".costomList_view.CostomListView"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".list_view.ProductDetiales"
+            android:exported="false" />
+        <activity
+            android:name=".auth_exercise.resetScreen"
+            android:exported="true" />
+        <activity
+            android:name=".auth_exercise.LoginScreen"
+            android:exported="true" />
+        <activity
+            android:name=".auth_exercise.SigninScreen"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".list_view.Mylistview"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".alert_dialog.alertDialog"
+            android:exported="false" >
+        </activity>
+
+        <activity
+            android:name=".menus.teacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menus.studentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menus.menuActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".intent.implicitIntent"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".intent.Secondactivity"
+            android:exported="true" />
+        <activity
+            android:name=".intent.FirstActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".activity_lifecycle.ActivityCycle"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

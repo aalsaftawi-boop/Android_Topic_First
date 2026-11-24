@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:background="#767676"
+    android:layout_marginHorizontal="20dp"
+    android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:id="@+id/edit_Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/icon_edit"
+        android:layout_margin="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/delete_Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/icon_delete"
+        android:layout_margin="20dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="NAME"
+        android:textSize="28sp"
+
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@id/marketId"
+        android:id="@+id/marketName"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/marketName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/marketName"
+        app:layout_constraintBottom_toBottomOf="@id/marketName"
+        android:text="ID"
+        android:textSize="28sp"
+        android:id="@+id/marketId"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/marketName"
+        app:layout_constraintStart_toStartOf="@id/marketName"
+        app:layout_constraintEnd_toEndOf="@id/marketName"
+        android:text="HISTORY"
+        android:textSize="28sp"
+        android:id="@+id/marketHistory"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/marketId"
+        app:layout_constraintEnd_toEndOf="@id/marketId"
+        app:layout_constraintStart_toStartOf="@id/marketId"
+        android:text="DETAILES"
+        android:textSize="28sp"
+        android:id="@+id/marketDetailes"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

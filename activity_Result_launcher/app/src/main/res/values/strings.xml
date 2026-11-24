@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">activity_Result_launcher</string>
+    <string name="moveBt_student">MOVE TO STUDENT ACTIVITY</string>
+    <string name="moveBt_teacher">MOVE TO TEACHER ACTIVITY</string>
+    <string name="name_student">ENTER THE STUDENT NAME </string>
+    <string name="id_student">ENTER THE STUDENT ID </string>
+    <string name="name_teacher">ENTER THE TEACHER NAME </string>
+    <string name="id_teacher">ENTER THE TEACHER ID </string>
+    <string name="resultBt">ENTER THE RESULT</string>
+</resources>

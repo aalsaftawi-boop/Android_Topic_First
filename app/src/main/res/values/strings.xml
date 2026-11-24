@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Event_Handling</string>
+
+
+    <string name="text_name">enter the name</string>
+    <string name="text_birth">enter the birth of year</string>
+    <string name="text_id">enter the id</string>
+    <string name="add_Bt">ADD</string>
+    <string name="text_male">MALE</string>
+    <string name="text_female">FEMALE</string>
+    <string name="text_age">enter the age</string>
+    <string name="text_show">SHOW MY INFORMATION</string>
+    <string name="married_Cb">married</string>
+    <string name="showBt">show the name</string>
+    <string name="hideBt">hide the name</string>
+    <string name="move_Bt">MOVE TO SECOND ACTIVITY</string>
+    <string name="welcome_Tv">WELCOME</string>
+    <string name="productName_Et">ENTER THE NAME OF PRODUCT</string>
+    <string name="email">ENTER THE EMAIL</string>
+    <string name="password">ENTER THE PASSWORD</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="mobile_number">ENTER THE MOBILE NUMBER</string>
+
+
+    <string-array name="cetiesSpinner">
+        <item>gaza</item>
+        <item>rafah</item>
+        <item>midlle</item>
+        <item>north</item>
+    </string-array>
+
+
+</resources>
